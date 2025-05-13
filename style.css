@@ -1,0 +1,82 @@
+.bg-hot-pink {
+    background-color: #FF4081 !important;
+    color: white;
+}
+
+.bg-orange {
+    background-color: #FF9800 !important;
+    color: white;
+}
+
+.bg-red {
+    background-color: #F44336 !important;
+    color: white;
+}
+
+.bg-coral {
+    background-color: #FF6F61 !important;
+    color: white;
+}
+
+.bg-peach {
+    background-color: #FFC1A1 !important;
+    color: black;
+}
+
+.bg-blush {
+    background-color: #FFE4E1 !important;
+    color: black;
+}
+
+.text-hot-pink {
+    color: #FF4081 !important;
+}
+
+.btn-hot-pink {
+    background-color: #FF4081 !important;
+    color: white;
+    border: none;
+}
+
+.btn-hot-pink:hover {
+    background-color: #e73370 !important;
+}
+
+.btn-orange {
+    background-color: #FF9800 !important;
+    color: white;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #e68900 !important;
+}
+
+/* Announcement box */
+.announcement-embed {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-height: 60vh;
+    overflow-y: auto;
+    font-size: 1.4rem;
+    border-left: 5px solid #FF4081;
+}
+
+.announcement-item+.announcement-item {
+    border-top: 1px solid #555;
+    padding-top: 1rem;
+}
+
+
+/* Navbar buttons */
+.navbar .btn {
+    margin-left: 0.5rem;
+}
+
+body {
+    background-color: #2c2c2c !important;
+    color: white;
+}
