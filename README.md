@@ -1,1 +1,1 @@
-# schoolmaxxing.github.io
+SCHOOLMAXXING
