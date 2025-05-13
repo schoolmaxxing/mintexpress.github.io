@@ -35,7 +35,7 @@
 .btn-hot-pink {
     background-color: #FF4081 !important;
     color: rgb(37, 37, 37);
-    font-weight: bolder;
+    font-weight: thinner;
     border: none;
 }
 
@@ -46,7 +46,7 @@
 .btn-orange {
     background-color: #FF9800 !important;
     color: rgb(37, 37, 37);
-    font-weight: bolder;
+    font-weight: thinner;
     border: none;
 }
 
