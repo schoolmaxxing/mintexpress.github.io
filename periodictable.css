@@ -1,0 +1,141 @@
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 0.3vw;
+    width: 95%;
+    max-width: 1000px;
+    margin: 2vh auto;
+    justify-content: center;
+}
+
+.placeholder {
+    visibility: hidden;
+    background: transparent;
+    border: none;
+}
+
+.element {
+    background: #1f1f1f;
+    padding: 0.1vw;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    transition: filter 0.2s ease;
+    text-align: center;
+    font-size: 0.55vw;
+    aspect-ratio: 1 / 1;
+    /* Keep square shape */
+}
+
+.element:hover {
+    filter: brightness(60%);
+}
+
+.element .symbol {
+    font-size: 1vw;
+    font-weight: bold;
+    color: #000000;
+}
+
+.element .number {
+    font-size: 0.6vw;
+    font-weight: 400;
+    color: #000000;
+}
+
+.element .name {
+    font-size: 0.5vw;
+    font-weight: 400;
+    color: #000000;
+}
+
+/*.details-box {
+    width: 90%;
+    max-width: 700px;
+    margin: 3vh auto;
+    padding: 1rem;
+    background: #1f1f1f;
+    border: 1px solid #555;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}*/
+
+.tooltip-box {
+    position: absolute;
+    background: #1f1f1f;
+    color: white;
+    padding: 1.2rem;
+    border: 1px solid #666;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.4;
+    pointer-events: none;
+    z-index: 1000;
+    display: none;
+    opacity: 0;
+    max-width: 15%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.15s ease;
+}
+
+#legend {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.legend-item {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    margin: 0.25rem;
+    white-space: nowrap;
+}
+
+
+
+/*Elements*/
+.alkali-metal {
+    background-color: #cc4c4c;
+}
+
+.alkaline-earth-metal {
+    background-color: #cc9933;
+}
+
+.transition-metal {
+    background-color: #b36b8b;
+}
+
+.post-transition-metal {
+    background-color: #8855cc;
+}
+
+.metalloid {
+    background-color: #339999;
+}
+
+.nonmetal {
+    background-color: #4caf50;
+}
+
+.halogen {
+    background-color: #cc8033;
+}
+
+.noble-gas {
+    background-color: #4682b4;
+}
+
+.lanthanide {
+    background-color: #9966cc;
+}
+
+.actinide {
+    background-color: #b85fb8;
+}
+
+.unknown {
+    background-color: #555555;
+}

@@ -1,5 +1,5 @@
 .bg-hot-pink {
-    background-color: #FF4081 !important;
+    background-color: #b340ff !important;
     color: white;
 }
 
@@ -29,29 +29,35 @@
 }
 
 .text-hot-pink {
-    color: #FF4081 !important;
+    color: #b340ff !important;
+    font-weight: lighter;
+}
+
+.text-blue {
+    color: #006eff !important;
+    font-weight: lighter;
 }
 
 .btn-hot-pink {
-    background-color: #FF4081 !important;
-    color: rgb(37, 37, 37);
-    font-weight: thinner;
+    background-color: #b340ff !important;
+    color: white;
+    font-weight: lighter;
     border: none;
 }
 
 .btn-hot-pink:hover {
-    background-color: #e73370 !important;
+    background-color: rgb(112, 30, 119) !important;
 }
 
-.btn-orange {
-    background-color: #FF9800 !important;
-    color: rgb(37, 37, 37);
-    font-weight: thinner;
+.btn-blue {
+    background-color: #006eff !important;
+    color: white;
+    font-weight: lighter;
     border: none;
 }
 
-.btn-orange:hover {
-    background-color: #e68900 !important;
+.btn-blue:hover {
+    background-color: #00367c !important;
 }
 
 /* Announcement box */
@@ -61,11 +67,16 @@
     padding: 1rem;
     border-radius: 0.75rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    max-height: 60vh;
+    max-height: 50vh;
     overflow-y: auto;
     font-size: 1.4rem;
     font-weight: lighter;
-    border-left: 5px solid #FF4081;
+    border-left: 5px solid #b340ff;
+}
+
+.announcement-embed::-webkit-scrollbar {
+    /* Chrome, Safari, Edge */
+    display: none;
 }
 
 .announcement-item+.announcement-item {
@@ -82,4 +93,42 @@
 body {
     background-color: #2c2c2c !important;
     color: white;
+}
+
+.skewl-header {
+    position: relative;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,
+            #b340ff 0%,
+            #7a50ff 25%,
+            #006eff 50%,
+            #7a50ff 75%,
+            #b340ff 100%);
+    background-size: 300% 300%;
+    animation: loopGradient 15s ease-in-out infinite;
+}
+
+@keyframes loopGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 100%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 50% 0%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }

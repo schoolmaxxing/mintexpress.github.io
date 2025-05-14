@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skewl – Citation Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #2c2c2c;
+            color: white;
+        }
+
+        .citation-box {
+            background: #1f1f1f;
+            border: 1px solid #444;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+
+        .form-control,
+        .form-select {
+            background: #1a1a1a;
+            color: white;
+            border: 1px solid #555;
+        }
+
+        .form-control::placeholder {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark shadow-sm">
+        <div class="container">
+            <a href="/index.html" class="navbar-brand text-hot-pink">skewl</a>
+            <div class="ms-auto d-flex">
+                <a href="/games.html" class="btn btn-blue">Games</a>
+                <a href="/apguides.html" class="btn btn-blue">FREE AP Study Guides</a>
+                <a href="/tools.html" class="btn btn-blue">Useful Tools</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-hot-pink mb-4 text-center">Citation Generator</h1>
+
+        <div class="mb-3">
+            <label for="style" class="form-label">Citation Style:</label>
+            <select id="style" class="form-select">
+                <option value="apa">APA</option>
+                <option value="mla">MLA</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Author (Last, First):</label>
+            <input type="text" id="author" class="form-control" placeholder="Doe, Jane" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Title of Work:</label>
+            <input type="text" id="title" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Website/Publisher:</label>
+            <input type="text" id="site" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Publication Year:</label>
+            <input type="text" id="year" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">URL:</label>
+            <input type="text" id="url" class="form-control" />
+        </div>
+
+        <button class="btn btn-hot-pink mb-4" onclick="generateCitation()">Generate Citation</button>
+
+        <div id="output" class="citation-box d-none"></div>
+    </div>
+
+    <script>
+        function generateCitation() {
+            const style = document.getElementById('style').value;
+            const author = document.getElementById('author').value.trim();
+            const title = document.getElementById('title').value.trim();
+            const site = document.getElementById('site').value.trim();
+            const year = document.getElementById('year').value.trim();
+            const url = document.getElementById('url').value.trim();
+
+            let citation = '';
+            if (style === 'apa') {
+                citation = `${author} (${year}). <i>${title}</i>. ${site}. ${url}`;
+            } else if (style === 'mla') {
+                citation = `${author}. "<i>${title}</i>." ${site}, ${year}, ${url}.`;
+            }
+
+            const output = document.getElementById('output');
+            output.innerHTML = citation;
+            output.classList.remove('d-none');
+        }
+    </script>
+
+</body>
+
+</html>

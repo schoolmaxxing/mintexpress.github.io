@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Unit Converter",
+    "link": "tools/converter.html",
+    "icon": "\ud83e\uddee"
+  },
+  {
+    "title": "Periodic Table",
+    "link": "tools/periodictable.html",
+    "icon": "\ud83e\uddea"
+  },
+  {
+    "title": "GPA Calculator",
+    "link": "tools/gpa.html",
+    "icon": "\ud83c\udf93"
+  },
+  {
+    "title": "Multi-function Calculator",
+    "link": "tools/calculator.html",
+    "icon": "\ud83d\udcf1"
+  },
+  {
+    "title": "Citation Generator",
+    "link": "tools/citation.html",
+    "icon": "\ud83d\udcda"
+  }
+]

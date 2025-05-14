@@ -1,0 +1,26 @@
+.tool-card {
+    background-color: #2f2f2f;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: transform 0.2s ease;
+    height: 100%;
+    text-align: center;
+}
+
+.tool-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tool-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.tool-container {
+    aspect-ratio: 16 / 9;
+    background-color: #1e1e1e;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
