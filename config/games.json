@@ -1,4 +1,5 @@
-[{
+[
+    {
         "link": "projects/1/index.html",
         "imgSrc": "projects/1/meta/apple-touch-icon.png",
         "title": "1"
@@ -12,6 +13,11 @@
         "link": "projects/2048/index.html",
         "imgSrc": "projects/2048/thumb.png",
         "title": "2048"
+    },
+    {
+        "link": "projects/3d-golf/index.html",
+        "imgSrc": "projects/3d-golf/splash.png",
+        "title": "3D Golf"
     },
     {
         "link": "projects/9007199254740992/index.html",
@@ -34,6 +40,11 @@
         "title": "Among Us"
     },
     {
+        "link": "projects/arena/index.html",
+        "imgSrc": "projects/arena/splash.png",
+        "title": "Arena"
+    },
+    {
         "link": "projects/avalanche/index.html",
         "imgSrc": "projects/avalanche/avalanche.png",
         "title": "Avalanche"
@@ -42,6 +53,16 @@
         "link": "projects/backrooms/index.html",
         "imgSrc": "projects/backrooms/img/splash.jpg",
         "title": "Backrooms"
+    },
+    {
+        "link": "projects/ball-blast/index.html",
+        "imgSrc": "projects/ball-blast/splash.png",
+        "title": "Ball Blast"
+    },
+    {
+        "link": "projects/ball-king/index.html",
+        "imgSrc": "projects/ball-king/splash.png",
+        "title": "Ball King"
     },
     {
         "link": "projects/basketball-stars/index.html",
@@ -59,9 +80,24 @@
         "title": "Big Red Button"
     },
     {
+        "link": "projects/btts/index.html",
+        "imgSrc": "projects/btts/images.png",
+        "title": "Big Tower Tiny Square"
+    },
+    {
         "link": "projects/blackknight/index.html",
         "imgSrc": "projects/blackknight/blackknight.png",
         "title": "Black Knight"
+    },
+    {
+        "link": "projects/block-blast/index.html",
+        "imgSrc": "projects/block-blast/splash.png",
+        "title": "Block Blast"
+    },
+    {
+        "link": "projects/block-breaker/index.html",
+        "imgSrc": "projects/block-breaker/splash.png",
+        "title": "Block Breaker"
     },
     {
         "link": "projects/bloonstd/index.html",
@@ -79,19 +115,34 @@
         "title": "Bloxors"
     },
     {
+        "link": "projects/blumgi-castle/index.html",
+        "imgSrc": "projects/blumgi-castle/splash.png",
+        "title": "Blumgi Castle"
+    },
+    {
+        "link": "projects/bone-battles-2/index.html",
+        "imgSrc": "projects/bone-battles-2/splash.png",
+        "title": "Bone Battles 2"
+    },
+    {
+        "link": "projects/bouncy-heroes/index.html",
+        "imgSrc": "projects/bouncy-heroes/splash.png",
+        "title": "Bouncy Heroes"
+    },
+    {
         "link": "projects/boxhead2play/index.html",
         "imgSrc": "projects/boxhead2play/boxhead2play.jpg",
         "title": "Box Head"
     },
     {
+        "link": "projects/brawl-io/index.html",
+        "imgSrc": "projects/brawl-io/splash.png",
+        "title": "Brawl Io"
+    },
+    {
         "link": "projects/breakingthebank/index.html",
         "imgSrc": "projects/breakingthebank/breakingthebank.png",
         "title": "Breaking the Bank"
-    },
-    {
-        "link": "projects/btts/index.html",
-        "imgSrc": "projects/btts/images.png",
-        "title": "Big Tower Tiny Square"
     },
     {
         "link": "projects/cannon-basketball-4/index.html",
@@ -102,6 +153,16 @@
         "link": "projects/canyondefense/index.html",
         "imgSrc": "projects/canyondefense/canyondefense.png",
         "title": "Canyon Defense"
+    },
+    {
+        "link": "projects/card-battle-4/index.html",
+        "imgSrc": "projects/card-battle-4/splash.png",
+        "title": "Card Battle 4"
+    },
+    {
+        "link": "projects/catacloud/index.html",
+        "imgSrc": "projects/catacloud/splash.png",
+        "title": "Catacloud"
     },
     {
         "link": "projects/cell-machine/index.html",
@@ -144,9 +205,24 @@
         "title": "Creative Kill Chamber"
     },
     {
+        "link": "projects/creatur-io/index.html",
+        "imgSrc": "projects/creatur-io/splash.png",
+        "title": "Creatur Io"
+    },
+    {
         "link": "projects/csgo-clicker/index.html",
         "imgSrc": "projects/csgo-clicker/images/vanguard.png",
         "title": "CS:GO Clicker"
+    },
+    {
+        "link": "projects/cubefield/index.html",
+        "imgSrc": "projects/cubefield/cubefield.jpg",
+        "title": "Cubefield"
+    },
+    {
+        "link": "projects/cupcake2048/index.html",
+        "imgSrc": "projects/cupcake2048/favicon.png",
+        "title": "Cupcake 2048"
     },
     {
         "link": "projects/ctr/index.html",
@@ -164,14 +240,9 @@
         "title": "Cut the Rope Time Travel"
     },
     {
-        "link": "projects/cubefield/index.html",
-        "imgSrc": "projects/cubefield/cubefield.jpg",
-        "title": "Cubefield"
-    },
-    {
-        "link": "projects/cupcake2048/index.html",
-        "imgSrc": "projects/cupcake2048/favicon.png",
-        "title": "Cupcake 2048"
+        "link": "projects/cyber-switch/index.html",
+        "imgSrc": "projects/cyber-switch/splash.png",
+        "title": "Cyber Switch"
     },
     {
         "link": "projects/deal-or-no-deal/index.html",
@@ -189,6 +260,16 @@
         "title": "Defend the Tank"
     },
     {
+        "link": "projects/demon-skies/index.html",
+        "imgSrc": "projects/demon-skies/splash.png",
+        "title": "Demon Skies"
+    },
+    {
+        "link": "projects/diep-io/index.html",
+        "imgSrc": "projects/diep-io/splash.png",
+        "title": "Diep Io"
+    },
+    {
         "link": "projects/doge2048/index.html",
         "imgSrc": "projects/doge2048/meta/apple-touch-icon.png",
         "title": "Doge 2048"
@@ -197,6 +278,11 @@
         "link": "projects/DogeMiner/index.html",
         "imgSrc": "projects/DogeMiner/img/dogeminer_300x300.png",
         "title": "Doge Miner"
+    },
+    {
+        "link": "projects/dont-touch-the-spikes/index.html",
+        "imgSrc": "projects/dont-touch-the-spikes/splash.png",
+        "title": "Dont Touch The Spikes"
     },
     {
         "link": "projects/doodle-jump/index.html",
@@ -209,9 +295,19 @@
         "title": "Double Wires"
     },
     {
+        "link": "projects/downgrade/index.html",
+        "imgSrc": "projects/downgrade/splash.png",
+        "title": "Downgrade"
+    },
+    {
         "link": "projects/draw-the-hill/index.html",
         "imgSrc": "projects/draw-the-hill/icons/icon-512.png",
         "title": "Draw the Hill"
+    },
+    {
+        "link": "projects/drift-chase/index.html",
+        "imgSrc": "projects/drift-chase/splash.png",
+        "title": "Drift Chase"
     },
     {
         "link": "projects/ducklife1/index.html",
@@ -229,6 +325,11 @@
         "title": "Duck Life 3"
     },
     {
+        "link": "projects/dungeon-dash/index.html",
+        "imgSrc": "projects/dungeon-dash/splash.png",
+        "title": "Dungeon Dash"
+    },
+    {
         "link": "projects/edgenotfound/index.html",
         "imgSrc": "projects/edgenotfound/edge.png",
         "title": "Edge Not Found"
@@ -237,6 +338,11 @@
         "link": "projects/elasticman/index.html",
         "imgSrc": "projects/elasticman/elasticman.jpg",
         "title": "Elastic Man"
+    },
+    {
+        "link": "projects/enchanted-tower/index.html",
+        "imgSrc": "projects/enchanted-tower/splash.png",
+        "title": "Enchanted Tower"
     },
     {
         "link": "projects/endlesswar3/index.html",
@@ -279,6 +385,11 @@
         "title": "Flash Tetris"
     },
     {
+        "link": "projects/flying-space/index.html",
+        "imgSrc": "projects/flying-space/splash.png",
+        "title": "Flying Space"
+    },
+    {
         "link": "projects/game-inside/index.html",
         "imgSrc": "projects/game-inside/img/display.png",
         "title": "Game Inside a Game Inside a Game..."
@@ -314,14 +425,14 @@
         "title": "Grind Craft"
     },
     {
+        "link": "projects/guess/index.html",
+        "imgSrc": "projects/guess/splash.png",
+        "title": "Guess"
+    },
+    {
         "link": "projects/hackertype/index.html",
         "imgSrc": "projects/hackertype/logo192.png",
         "title": "Hacker Typer"
-    },
-    {
-        "link": "projects/hba/index.html",
-        "imgSrc": "projects/hba/hoverbotarena.jpg",
-        "title": "Hover Bot Arena"
     },
     {
         "link": "projects/helicopter/index.html",
@@ -342,6 +453,11 @@
         "link": "projects/hextris/index.html",
         "imgSrc": "projects/hextris/images/hextris-logo.png",
         "title": "Hextris"
+    },
+    {
+        "link": "projects/hba/index.html",
+        "imgSrc": "projects/hba/hoverbotarena.jpg",
+        "title": "Hover Bot Arena"
     },
     {
         "link": "projects/idle-breakout/index.html",
@@ -384,6 +500,21 @@
         "title": "Learn To Fly"
     },
     {
+        "link": "projects/level-eaten/index.html",
+        "imgSrc": "projects/level-eaten/splash.png",
+        "title": "Level Eaten"
+    },
+    {
+        "link": "projects/levis-quest/index.html",
+        "imgSrc": "projects/levis-quest/splash.png",
+        "title": "Levis Quest"
+    },
+    {
+        "link": "projects/mage-royale/index.html",
+        "imgSrc": "projects/mage-royale/splash.png",
+        "title": "Mage Royale"
+    },
+    {
         "link": "projects/mario/index.html",
         "imgSrc": "projects/mario/Theme/Mario.gif",
         "title": "Mario"
@@ -401,7 +532,7 @@
     {
         "link": "projects/minecraft/index.html",
         "imgSrc": "projects/minecraft/splash.jpeg",
-        "title": "Eaglercraft"
+        "title": "Minecraft"
     },
     {
         "link": "projects/minecraft-classic/index.html",
@@ -414,6 +545,11 @@
         "title": "Minesweeper"
     },
     {
+        "link": "projects/mini-golf/index.html",
+        "imgSrc": "projects/mini-golf/splash.png",
+        "title": "Mini Golf"
+    },
+    {
         "link": "projects/miniputt/index.html",
         "imgSrc": "projects/miniputt/miniputt.png",
         "title": "Mini-putt"
@@ -422,6 +558,11 @@
         "link": "projects/missiles/index.html",
         "imgSrc": "projects/missiles/miss.png",
         "title": "Missiles"
+    },
+    {
+        "link": "projects/monkey-mart/index.html",
+        "imgSrc": "projects/monkey-mart/splash.png",
+        "title": "Monkey Mart"
     },
     {
         "link": "projects/motox3m/index.html",
@@ -469,6 +610,11 @@
         "title": "Papa's Pizzaria"
     },
     {
+        "link": "projects/paper-minecraft/index.html",
+        "imgSrc": "projects/paper-minecraft/splash.png",
+        "title": "Paper Minecraft"
+    },
+    {
         "link": "projects/paperio2/index.html",
         "imgSrc": "projects/paperio2/images/icon512.png",
         "title": "Paper.io 2"
@@ -484,6 +630,11 @@
         "title": "Particle Clicker"
     },
     {
+        "link": "projects/pixel-jumper-ultimate/index.html",
+        "imgSrc": "projects/pixel-jumper-ultimate/splash.png",
+        "title": "Pixel Jumper Ultimate"
+    },
+    {
         "link": "projects/polybranch/index.html",
         "imgSrc": "projects/polybranch/img/pic1.png",
         "title": "PolyBranch"
@@ -492,6 +643,11 @@
         "link": "projects/portalflash/index.html",
         "imgSrc": "projects/portalflash/portaltheflashversion.jpg",
         "title": "Portal (Flash)"
+    },
+    {
+        "link": "projects/portal-2/index.html",
+        "imgSrc": "projects/portal-2/splash.png",
+        "title": "Portal 2"
     },
     {
         "link": "projects/precision-client/index.html",
@@ -509,9 +665,19 @@
         "title": "Push Your Luck"
     },
     {
+        "link": "projects/rebound/index.html",
+        "imgSrc": "projects/rebound/splash.png",
+        "title": "Rebound"
+    },
+    {
         "link": "projects/retro-bowl/index.html",
         "imgSrc": "projects/retro-bowl/img/icon.jpg",
         "title": "Retro Bowl"
+    },
+    {
+        "link": "projects/robot-destructor/index.html",
+        "imgSrc": "projects/robot-destructor/splash.png",
+        "title": "Robot Destructor"
     },
     {
         "link": "projects/rolly-vortex/index.html",
@@ -529,19 +695,34 @@
         "title": "Sand Game"
     },
     {
+        "link": "projects/skribbl-io/index.html",
+        "imgSrc": "projects/skribbl-io/splash.png",
+        "title": "Skribbl Io"
+    },
+    {
+        "link": "projects/slime-smash-ultimate/index.html",
+        "imgSrc": "projects/slime-smash-ultimate/splash.png",
+        "title": "Slime Smash Ultimate"
+    },
+    {
+        "link": "projects/sling-drift/index.html",
+        "imgSrc": "projects/sling-drift/splash.png",
+        "title": "Sling Drift"
+    },
+    {
         "link": "projects/slope/index.html",
         "imgSrc": "projects/slope/slope4.jpeg",
         "title": "Slope"
     },
     {
-        "link": "projects/sm64/index.html",
-        "imgSrc": "projects/sm64/logo.png",
-        "title": "Super Mario 64"
-    },
-    {
         "link": "projects/smashkarts/index.html",
         "imgSrc": "projects/smashkarts/images/icon-512.png",
         "title": "Smash Carts"
+    },
+    {
+        "link": "projects/smash-royale/index.html",
+        "imgSrc": "projects/smash-royale/splash.png",
+        "title": "Smash Royale"
     },
     {
         "link": "projects/smokingbarrels/index.html",
@@ -574,6 +755,16 @@
         "title": "Soundboard"
     },
     {
+        "link": "projects/splatoon/index.html",
+        "imgSrc": "projects/splatoon/splash.png",
+        "title": "Splatoon"
+    },
+    {
+        "link": "projects/spooky-run/index.html",
+        "imgSrc": "projects/spooky-run/splash.png",
+        "title": "Spooky Run"
+    },
+    {
         "link": "projects/stack/index.html",
         "imgSrc": "projects/stack/stack.png",
         "title": "Stack"
@@ -582,6 +773,11 @@
         "link": "projects/stack-bump-3d/index.html",
         "imgSrc": "projects/stack-bump-3d/thumbnail.jpg",
         "title": "Stack Bump 3D"
+    },
+    {
+        "link": "projects/stacky-build/index.html",
+        "imgSrc": "projects/stacky-build/splash.png",
+        "title": "Stacky Build"
     },
     {
         "link": "projects/stealingthediamond/index.html",
@@ -599,6 +795,11 @@
         "title": "Storm The House 2"
     },
     {
+        "link": "projects/sm64/index.html",
+        "imgSrc": "projects/sm64/logo.png",
+        "title": "Super Mario 64"
+    },
+    {
         "link": "projects/superhot/index.html",
         "imgSrc": "projects/superhot/hot.jpg",
         "title": "Superhot"
@@ -607,6 +808,11 @@
         "link": "projects/swerve/index.html",
         "imgSrc": "projects/swerve/img/favicon.jpg",
         "title": "Swerve"
+    },
+    {
+        "link": "projects/swing-copters/index.html",
+        "imgSrc": "projects/swing-copters/splash.png",
+        "title": "Swing Copters"
     },
     {
         "link": "projects/tacticalassasin2/index.html",
@@ -629,9 +835,19 @@
         "title": "Temple Run 2"
     },
     {
+        "link": "projects/tetris/index.html",
+        "imgSrc": "projects/tetris/splash.png",
+        "title": "Tetris"
+    },
+    {
         "link": "projects/thebattle/index.html",
         "imgSrc": "projects/thebattle/thebattle.png",
         "title": "The Battle"
+    },
+    {
+        "link": "projects/the-chest-v2/index.html",
+        "imgSrc": "projects/the-chest-v2/splash.png",
+        "title": "The Chest V2"
     },
     {
         "link": "projects/the-final-earth/index.html",
@@ -674,6 +890,11 @@
         "title": "TV Static"
     },
     {
+        "link": "projects/uno/index.html",
+        "imgSrc": "projects/uno/splash.png",
+        "title": "Uno"
+    },
+    {
         "link": "projects/vex3/index.html",
         "imgSrc": "projects/vex3/vex3.png",
         "title": "Vex 3"
@@ -692,6 +913,11 @@
         "link": "projects/vex6/index.html",
         "imgSrc": "projects/vex6/assets/icon.jpeg",
         "title": "Vex 6"
+    },
+    {
+        "link": "projects/wall-runner-ultimate/index.html",
+        "imgSrc": "projects/wall-runner-ultimate/splash.png",
+        "title": "Wall Runner Ultimate"
     },
     {
         "link": "projects/webretro-local/index.html",
