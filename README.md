@@ -1,2 +1,2 @@
 SCHOOLMAXXING
-https://schoolmaxxing.github.io/
+https://mintexpress.github.io/
