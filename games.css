@@ -1,14 +1,19 @@
+:root { --card-radius: 16px; }
+
 .game-card {
-  background-color: #2f2f2f;
-  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--card-radius);
   padding: 1rem;
-  transition: transform 0.2s ease;
+  transition: transform 220ms cubic-bezier(.2,.6,.2,1), box-shadow 220ms cubic-bezier(.2,.6,.2,1), border-color 220ms;
   height: 100%;
+  backdrop-filter: blur(6px);
 }
 
 .game-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45);
+  border-color: rgba(179, 64, 255, 0.35);
 }
 
 .game-thumb {
@@ -22,7 +27,7 @@
   height: 180px;
   object-fit: cover;
   /* Ensures images scale/crop consistently */
-  border-radius: 0.5rem;
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   background-color: #1a1a1a;
   margin-bottom: 1rem;
@@ -31,7 +36,7 @@
 .game-container {
   aspect-ratio: 16 / 9;
   background-color: #1e1e1e;
-  border-radius: 1rem;
+  border-radius: var(--card-radius);
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
@@ -50,3 +55,7 @@ body::-webkit-scrollbar {
 body {
   margin-bottom: 2rem;
 }
+
+/* subtle reveal */
+.game-card.reveal { opacity: 0; transform: translateY(12px) scale(0.98); }
+.game-card.reveal.in-view { opacity: 1; transform: none; transition: opacity 600ms cubic-bezier(.2,.6,.2,1), transform 600ms cubic-bezier(.2,.6,.2,1); }

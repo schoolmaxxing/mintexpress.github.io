@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hide-scrollbar">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skewl</title>
+    <title>Satellite</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/logo.png" />
 </head>
 
-<body>
+<body class="hide-scrollbar">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark shadow-sm">
+    <nav class="navbar navbar-expand-lg shadow-sm">
         <div class="container">
-            <a href="/index.html" class="navbar-brand text-hot-pink">skewl</a>
+            <a href="/index.html" class="navbar-brand brand-gradient">satellite</a>
             <div class="ms-auto d-flex">
                 <a href="/games.html" class="btn btn-blue">Games</a>
                 <a href="/apguides.html" class="btn btn-blue">FREE AP Study Guides</a>
@@ -26,8 +26,8 @@
 
 
     <!-- Header -->
-    <header class="skewl-header text-center py-5 position-relative">
-        <h1 class="position-relative z-1" style="font-size:7.5rem;font-weight:lighter;">skewl</h1>
+    <header class="satellite-header text-center py-5 position-relative">
+        <h1 class="position-relative z-1" style="font-size:7.5rem;font-weight:300;">satellite</h1>
         <div class="gradient-spin position-absolute top-0 start-0 w-100 h-100 z-0"></div>
     </header>
 
@@ -35,11 +35,10 @@
     <section class="py-4">
         <div class="container">
             <h1 class="mb-3 text-hot-pink">Announcements</h1>
-            <div class="announcement-embed">
-                <!-- Example Announcement -->
+        <div class="announcement-embed reveal">
                 <div class="announcement-item mb-4">
                     <h3 class="text-hot-pink mb-2">📢 Lets go website dropped!</h3>
-                    <small class="text" style="font-size:1rem;">May 12, 2025</small>
+                    <small class="text" style="font-size:1rem;">August 28, 2025</small>
                     <p class="mt-2 mb-0">
                         Been working on this for a couple days, brought to you by the creator of Silk Majority
                         Difference!
@@ -50,6 +49,90 @@
         </div>
     </section>
 
+    <!-- Intro Hero -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-7">
+                    <h2 class="mb-3" style="font-weight:600;">Play, learn, and get things done — all in one place.</h2>
+                    <p class="text-muted mb-4">Dive into a curated library of unblocked games, handy school tools, and free AP study resources. No fluff, just what you need.</p>
+                    <div>
+                        <a class="btn btn-hot-pink me-2" href="/games.html">Browse Games</a>
+                        <a class="btn btn-blue" href="/tools.html">Check Out Tools</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="p-4" style="background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.06);border-radius:16px;box-shadow:var(--shadow-1)">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="me-3" style="font-size:2rem">🎮</div>
+                            <div>
+                                <div style="font-weight:600">200+ Games</div>
+                                <small class="text-muted">Popular picks and hidden gems</small>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="me-3" style="font-size:2rem">🧪</div>
+                            <div>
+                                <div style="font-weight:600">Useful Tools</div>
+                                <small class="text-muted">Calculators, converters, and more</small>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="me-3" style="font-size:2rem">📘</div>
+                            <div>
+                                <div style="font-weight:600">Free AP Guides</div>
+                                <small class="text-muted">Organized and easy to browse</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Sections -->
+    <section class="py-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="game-card text-center reveal">
+                        <h3 class="mb-2">Trending Games</h3>
+                        <p class="text-muted mb-3">Jump into what everyone’s playing right now.</p>
+                        <a href="/games.html" class="btn btn-hot-pink">Play Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="tool-card text-center reveal">
+                        <h3 class="mb-2">Handy Tools</h3>
+                        <p class="text-muted mb-3">Quick calculators and converters for school.</p>
+                        <a href="/tools.html" class="btn btn-blue">Open Tools</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="game-card text-center reveal">
+                        <h3 class="mb-2">AP Study Guides</h3>
+                        <p class="text-muted mb-3">Free, organized resources to help you prep.</p>
+                        <a href="/apguides.html" class="btn btn-blue">Browse Guides</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer -->
+        <footer class="site-footer mt-5">
+                <div class="container text-center">
+                <small>© 2025 Satellite</small>
+                </div>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+            document.dispatchEvent(new Event('reveal:scan'));
+            });
+        </script>
+
+    <script src="/site.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
