@@ -173,7 +173,7 @@ input::-ms-input-placeholder { color: rgba(255,255,255,0.82); }
 /* Header */
 .satellite-header {
     position: relative;
-    height: 30vh;
+    height: 30vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
